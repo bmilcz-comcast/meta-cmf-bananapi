@@ -11,6 +11,7 @@ IMAGE_INSTALL_append = " rdk-speedtest-cli rdm-agent remotedebugger"
 #Enable required linux utils for Fwupgrade
 IMAGE_INSTALL_append = " gptfdisk e2fsprogs-mke2fs util-linux util-linux-losetup coreutils"
 
+IMAGE_INSTALL_append = " gdb ccsp-one-wifi-dbg rdk-wifi-hal-dbg rdk-wifi-libhostap-dbg "
 #Router discovery tool
 IMAGE_INSTALL_append = " ndisc6"
 
